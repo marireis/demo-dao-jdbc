@@ -49,7 +49,7 @@ public class Department implements Serializable{
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Department other = (Department) obj;
+		seller other = (seller) obj;
 		if (id == null) {
 			if (other.id != null)
 				return false;
